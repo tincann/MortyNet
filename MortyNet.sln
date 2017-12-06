@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MortyNet.DigitRecognition", "MortyNet.DigitRecognition\MortyNet.DigitRecognition.csproj", "{A6DE3ADE-D6C4-44A7-B505-22E3A212A46C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6DE3ADE-D6C4-44A7-B505-22E3A212A46C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6DE3ADE-D6C4-44A7-B505-22E3A212A46C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6DE3ADE-D6C4-44A7-B505-22E3A212A46C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6DE3ADE-D6C4-44A7-B505-22E3A212A46C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F65D5B87-7A49-447A-98BF-17AD122423FF}
+	EndGlobalSection
+EndGlobal
