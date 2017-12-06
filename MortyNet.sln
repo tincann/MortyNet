@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MortyNet.DigitRecognition",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MortyNet.NeuralNetwork", "MortyNet.NeuralNetwork\MortyNet.NeuralNetwork.csproj", "{3D30AF27-7723-4185-9A71-21F90D1C0E4B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MortyNet.XOR", "MortyNet.XOR\MortyNet.XOR.csproj", "{7BEFA489-B957-4213-9DA3-998ED49346F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applications", "Applications", "{EB5C4B73-4546-4AD7-9696-3904D5D14B07}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Neural network", "Neural network", "{F91EDD56-BBB3-4D72-ADF9-215085178E6A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,9 +27,18 @@ Global
 		{3D30AF27-7723-4185-9A71-21F90D1C0E4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D30AF27-7723-4185-9A71-21F90D1C0E4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D30AF27-7723-4185-9A71-21F90D1C0E4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BEFA489-B957-4213-9DA3-998ED49346F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BEFA489-B957-4213-9DA3-998ED49346F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BEFA489-B957-4213-9DA3-998ED49346F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BEFA489-B957-4213-9DA3-998ED49346F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A6DE3ADE-D6C4-44A7-B505-22E3A212A46C} = {EB5C4B73-4546-4AD7-9696-3904D5D14B07}
+		{3D30AF27-7723-4185-9A71-21F90D1C0E4B} = {F91EDD56-BBB3-4D72-ADF9-215085178E6A}
+		{7BEFA489-B957-4213-9DA3-998ED49346F7} = {EB5C4B73-4546-4AD7-9696-3904D5D14B07}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F65D5B87-7A49-447A-98BF-17AD122423FF}
